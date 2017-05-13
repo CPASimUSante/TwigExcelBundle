@@ -71,4 +71,4 @@ Using disk caching can improve memory consumption by writing data to disk tempor
 .. code-block:: yaml
 
     mewes_k_twig_excel:
-        disk_caching_directory: "%kernel.cache.dir%/phpexcel"
+        disk_caching_directory: "%kernel.cache_dir%/phpexcel"
